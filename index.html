@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -18,5 +18,41 @@
 
     </div>
     <script src="stopWatch.js"></script>
+</body>
+</html> -->
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1 class="main-title">⏱ Ultimate Stopwatch</h1>
+  </header>
+
+  <section class="intro">
+    <p>Track your time with precision! Start, stop, and reset your stopwatch easily. Perfect for workouts, study sessions, or coding challenges.</p>
+  </section>
+
+  <div class="stopwatch">
+    <h1 id="displayTime">00:00:00</h1>
+    <div class="buttons">
+      <img src="assets/stop_img.png" alt="Stop" onclick="watchStop()">
+      <img src="assets/start_img.png" alt="Start" onclick="watchStart()">
+      <img src="assets/reset_img.png" alt="Reset" onclick="watchReset()">
+    </div>
+  </div>
+
+  <script src="stopWatch.js"></script>
 </body>
 </html>
